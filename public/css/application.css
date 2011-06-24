@@ -1,0 +1,43 @@
+html, body {
+  font-size:14px;
+  height:100%;
+  margin:0;
+  padding:0;
+  color:#7B7B7B;
+}
+html { overflow-y: scroll; }
+body { font-family: 'Tinos'; margin: 10px; }
+a    { color:#333; text-decoration:none; }
+a:hover { text-decoration:underline; }
+#images {
+  width:83%;
+  overflow:hidden;
+  padding-bottom:10px;
+}
+header {
+  width:17%;
+  float:left;
+  text-align:left;
+}
+h1 { font-size:47px; color:#444546; }
+h1, header p {
+  padding:0;
+  margin:0 20px 10px 0;
+}
+figure {
+  margin:0;
+  float:left;
+  width:20%;
+  overflow:hidden;
+}
+figure img { width:100%; }
+.req {
+  color:#999;
+  font-size:12px;
+  margin-right:0;
+}
+nav iframe {
+  display:block;
+  height:25px !important;
+  margin-right:10px;
+}
